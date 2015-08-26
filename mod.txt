@@ -1,0 +1,20 @@
+{
+    "name" : "PD2 Black List BLT",
+    "description" : "Blacklist for Payday 2",
+    "author" : "Jestersage",
+    "contact" : "",
+    "version" : "1",
+    "updates" : [
+		{
+			"revision" : 1,
+			"identifier" : "PD2BL"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/network/base/hostnetworksession",
+			"script_path": "blacklist.lua"
+		} 
+      
+	],
+}
